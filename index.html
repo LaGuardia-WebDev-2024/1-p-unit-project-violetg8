@@ -5,54 +5,84 @@ Requirements
 [X] One List
 [X] Three Images
 
-Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include at least three emojis
-[ no ] Feature 2 - Include a background image
-[ no ] Feature 3 - Add color with style=
-[ no ] Feature 4 - Include a description list
-[ no ] Feature 5 - Include <font> tag
--->
+    added border radius
+--> 
 
     
 <!DOCTYPE HTML>
 <html>
     <body>
-<h1>My Hamsters 🐹</h1>
+<h1 align= "center"> My Hamsters</h1>
     <head>
 <style>
+
+.chonk-border {
+border-color: bisque;
+border-width: 10px;
+border-style:dashed;
+}
+.spicy-border {
+border-color: mistyrose;
+border-width: 10px;
+border-style: dashed;
+}
+.coco-border {
+border-color:antiquewhite;
+border-width: 10px;
+border-style: dashed;
+}
+.shi-border {
+border-color: darkgray;
+border-width: 10px;
+border-style: dashed;
+}
+.tuna-border {
+border-color: rgb(255, 98, 98);
+border-width: 10px;
+border-style: dashed;
+}
 
 #spicy {color:pink}
 
 #chonk {color: orange}
 
-#coco {color:blanchedalmond}
+#coco {color:rgb(195, 175, 148)}
 
-#tuna {color:red}
+#tuna {color:rgb(204, 4, 4)}
+
+h1{
+    color: rgb(120, 91, 91);
+}
+body{ 
+    background-color:rgb(255, 252, 247);
+}
+
+.Big-Chonk {background-color: bisque;}
+.Spicy-Girl {background-color: mistyrose;}
+.Coconut {background-color: antiquewhite;}
+.Shishi {background-color: darkgray;}
+.Mr-Tuna {background-color: rgb(255, 98, 98);}
+
+
 
 </style>
 
 
 
 
-
-
-
-
-
-
-
-
-
-        <H3 id="chonk">Big Chonk 🐹</H3>
+        <H3 class="Big-Chonk"
+        align= "center"
+        id="chonk">Big Chonk 🐹</H3>
         <meta charset="utf-8">
         <title>My Hamsters</title>
         </head>
 
 
-       <P> <img src="1ADEDE3B-190B-42CD-8BCB-8067E678C47D.jpeg"
+       <P align= "center"> <img src="1ADEDE3B-190B-42CD-8BCB-8067E678C47D.jpeg"
+        class="chonk-border"
         width="300"></P> 
       
-        <p>Big Chonk is a <strong> Teddy Bear hamster</strong>. He is 1 year old and a <em>rescue.</em> He enjoys:
+        <p align= "center">Big Chonk is a <strong> Teddy Bear hamster</strong>. He is 1 year old and a <em>rescue.</em> He enjoys:
             <ul> 
                 <li>Running on his wheel</li> 
                 <li>Eating</li>
@@ -60,38 +90,52 @@ Select ONE Additional Feature to Add
                 </ul>
             </p>
     
-    <h3 id="spicy">Spicy Girl 🐹</h3>
+    <h3 class="Spicy-Girl"
+    align= "center"
+    id="spicy">Spicy Girl 🐹</h3>
     <style> </style>
     
-        <p> <img src="26B64933-EB11-4AD0-9671-29E3A228DD17.jpeg"width="300">  </p>
-        <p>Spicy is an <strong> albino Syrian hamster</strong>. She is 1 and a half and a <em>rescue</em>. She enjoys: 
+        <p align= "center"><img src="26B64933-EB11-4AD0-9671-29E3A228DD17.jpeg"
+            class="spicy-border"
+            width="300">  </p>
+        <p align= "center">Spicy is an <strong> albino Syrian hamster</strong>. She is 1 and a half and a <em>rescue</em>. She enjoys: 
             <ul> 
                 <li>Posing for photos</li> 
                 <li>Trying to escape from her enclosure</li>
             </ul>
             </p>
     
-    <h3 id="coco">Coconut 🐹</h3>
+    <h3 class="Coconut"
+    align= "center"
+    id="coco">Coconut 🐹</h3>
     
-        <p> <img srcset="IMG_4908.jpeg"
-        width="300"></p>
-        <p>Coconut is an <strong>albino Syrian hamster</strong>, and Spicy's <em>brother.</em> He enjoys: 
+        <p align= "center"><img srcset="IMG_4908.jpeg"
+        class="coco-border"
+            width="300"></p>
+        <p align= "center">Coconut is an <strong>albino Syrian hamster</strong>, and Spicy's <em>brother.</em> He enjoys: 
         <ul> 
                 <li>Sleeping</li> 
                 <li>Sneaking around</li>
-                </ul>And is very timid.</p>
+                </ul> <p align= "center">He is also very timid.</p>
     
-    <h3>Shishi 🐹</h3>
+    <h3 class="Shishi"
+    align= "center">
+        Shishi 🐹</h3>
     
-        <p> <img src="IMG_0524.jpeg"
+        <p align= "center"><img src="IMG_0524.jpeg"
+        class="shi-border"
          width="300"></p>
-        <p>Shishi is a<strong> Chinese Dwarf hamster</strong>. She is 1 year old and a <em>rescue.</em> She is scared of humans and doesn't come out very often.</p>
+        <p align= "center">Shishi is a<strong> Chinese Dwarf hamster</strong>. She is 1 year old and a <em>rescue.</em> She is scared of humans and doesn't come out very often.</p>
     
-    <h3 id="tuna">Mr. Tuna 🐭</h3>
+    <h3 class="Mr-Tuna"
+    align= "center"
+    id="tuna">Mr. Tuna 🐭</h3>
 
     
-        <p> <img src="IMG_0519.jpeg" width="300"></p>
-        <p>Mr. Tuna is <strong>NOT</strong> a hamster. He is an <strong>albino Gerbil</strong>. Mr. Tuna is 3 years old and a <em>rescue.</em> He enjoys:
+        <p align= "center"><img src="IMG_0519.jpeg"
+            class="tuna-border"
+            width="300"></p>
+        <p align= "center">Mr. Tuna is <strong>NOT</strong> a hamster. He is an <strong>albino Gerbil</strong>. Mr. Tuna is 3 years old and a <em>rescue.</em> He enjoys:
             <ul> 
                 <li>Chewing up cardboard</li> 
                 <li>Jumping around</li>
